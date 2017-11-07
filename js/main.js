@@ -1,7 +1,10 @@
+var myFacebookToken = prompt("please iput your acces token... make sure that you have selected all the user data permisions.");
+
+
+
 $(document).ready(function() {
 
-	var myFacebookToken = 'EAACEdEose0cBADFgSkgU1mu1PX95vZBnxpRA2JHVsAXumxftHrW1ZCZB9CaJehZC46x289lnra1YZBIYs4OVKnpUJA7ZBnNhOBfhA2aYGmt7ZAhHeahQFDGMAgAqTs76Xfj3FdIEtWjsvweufe2kmEPx0IpEOKLOQpgbuQiv6fBcSzcAF33Isi2zylxqr9fr6XOpl1pVx8nAAZDZD';
-    var next;
+	var next;
 
     function getProfilePic_name() {
     	
