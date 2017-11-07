@@ -1,9 +1,10 @@
-var myFacebookToken = prompt("please iput your acces token... make sure that you have selected all the user data permisions.");
-
+// to get the facebok token
+var myFacebookToken = prompt("please input your acces token... make sure that you have selected all the user data permisions.");
 
 
 $(document).ready(function() {
 
+	// variable to get the link for accessing more posts and use it in ajax
 	var next;
 
     function getProfilePic_name() {
@@ -221,6 +222,8 @@ $(document).ready(function() {
         getDob();
     });
     
+
+    // to get the more posts data after user clicks on see more
     $("#seeMoreBtn").click(function() {
 
     	$.ajax(next,{
