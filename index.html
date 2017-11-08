@@ -22,25 +22,21 @@
           position: absolute;
         }
 
-        #leftCol {
-          position: sticky;
-          height: 90vh;
-        }
-
-        #rightCol {
-        }
       </style>
 
     </head>
 
     <body>
       <!-- navbar with logo -->
-      <nav class="hoverable blue darken-4 nav-wrapper">
-        <a href="#" class="brand-logo">Facebook Profile</a>
-      </nav>
+      <div class="navbar-fixed">
+        <nav class="hoverable blue darken-4 nav-wrapper">
+          <a href="#" class="brand-logo">Facebook Profile</a>
+        </nav>
+      </div>
 
       <!-- main body section -->
-      <section>
+      <main>
+        <div class="container">
         <div class="row">
           <div class="col s12 m3 l3" id="leftCol">
             <div id="profilePicture" class="center-align">
@@ -88,6 +84,9 @@
             </div>    
           </div>
         </div>
+        </div>
+
+      </main>
 
         <!-- footer section -->
         <footer class="page-footer blue darken-4">
@@ -108,7 +107,6 @@
             </div>
           </div>
         </footer>
-      </section>
 
       
       <!--Import jQuery before materialize.js-->
